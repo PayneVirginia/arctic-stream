@@ -10,7 +10,7 @@ require (
 	github.com/cosmos/cosmos-db v1.1.1
 	github.com/cosmos/cosmos-proto v1.0.0-beta.5
 	github.com/cosmos/gogoproto v1.7.0
-	github.com/cosmos/iavl v1.2.6
+	github.com/cosmos/iavl v1.3.5
 	github.com/cosmos/ics23/go v0.11.0
 	github.com/hashicorp/go-hclog v1.6.3
 	github.com/hashicorp/go-metrics v0.5.4
@@ -24,7 +24,10 @@ require (
 	gotest.tools/v3 v3.5.2
 )
 
-require github.com/decred/dcrd/dcrec/secp256k1/v4 v4.4.0 // indirect
+require (
+	cosmossdk.io/core v0.12.1-0.20240725072823-6a2d039e1212 // indirect
+	github.com/decred/dcrd/dcrec/secp256k1/v4 v4.4.0 // indirect
+)
 
 require (
 	github.com/DataDog/zstd v1.5.7 // indirect
